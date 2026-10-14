@@ -1,0 +1,13 @@
+{
+  "resolution": [
+    3840,
+    2160
+  ],
+  "fps": 10,
+  "duration_seconds": 3.5,
+  "reveal_seconds": 0.78,
+  "text_first_fully_visible_seconds": 1,
+  "final_hold_seconds": 2.5,
+  "text": "A timetable is one of the most critical documents that kickstarts academic activities in tertiary institutions.",
+  "graphics": "Entire scene rebuilt as vector SVG; timetable is illustrative."
+}
