@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Timetable Video</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; background: #101818; color: #f5faf9; font: 16px/1.6 system-ui, sans-serif; padding: 40px 20px; }
+    main { max-width: 860px; margin: auto; }
+    h1 { font-size: clamp(26px,5vw,38px); margin-bottom: 8px; }
+    p { color: #b9ceca; }
+    video { display: block; width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 12px; margin: 24px 0; }
+    a { color: #8ddacb; }
+    .download { display: inline-block; background: #86d3c3; color: #102722; padding: 12px 22px; border-radius: 8px; font-weight: 650; text-decoration: none; }
+    .download:hover { background: #ade9dc; }
+    a:focus-visible, video:focus-visible { outline: 3px solid white; outline-offset: 5px; }
+    small { display: block; color: #b9ceca; margin-top: 16px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Timetable video</h1>
+    <p>Play the edited video below or save the MP4 to your device.</p>
+    <video controls playsinline preload="metadata" aria-label="Edited timetable video">
+      <source src="timetable-edited.mp4" type="video/mp4">
+      Your browser cannot play this video. Use the download button below.
+    </video>
+    <a class="download" href="timetable-edited.mp4" download="timetable-edited.mp4">Download video</a>
+    <small>MP4 · 640 × 360 · 5.2 seconds</small>
+    <p>If your phone opens the video instead of saving it, use its Share or Save Video option.</p>
+  </main>
+</body>
+</html>
